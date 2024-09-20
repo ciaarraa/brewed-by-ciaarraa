@@ -5,20 +5,20 @@
 class WhatsTheWeather < Formula
   desc ""
   homepage "https://github.com/ciaarraa/whats-the-weather"
-  version "1.0.1-alpha"
+  version "1.0.2-alpha"
 
   on_macos do
     on_intel do
-      url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.1-alpha/whats-the-weather_Darwin_x86_64.tar.gz"
-      sha256 "b95b97d57afe96f4d801357600258c42271fb4ddd1bce963180e585713c1e81a"
+      url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.2-alpha/whats-the-weather_Darwin_x86_64.tar.gz"
+      sha256 "a1aca1ffe49708147233507adb7a4e093643d225af6e38f2c0dbd6d96503aa6c"
 
       def install
         bin.install "whats-the-weather"
       end
     end
     on_arm do
-      url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.1-alpha/whats-the-weather_Darwin_arm64.tar.gz"
-      sha256 "d1c7c85ec77ac08643f950ec82e41e0d99fec3c650258a95e552de76f47978b3"
+      url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.2-alpha/whats-the-weather_Darwin_arm64.tar.gz"
+      sha256 "d96f897ff342fa8f4c068eac13e0113aa91c815bbf2093f82f9c8df747b02850"
 
       def install
         bin.install "whats-the-weather"
@@ -29,8 +29,8 @@ class WhatsTheWeather < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.1-alpha/whats-the-weather_Linux_x86_64.tar.gz"
-        sha256 "21223f7f1b92d050e6396775af32b46e7bf6388c64b88a6e9fac2bd9e0478074"
+        url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.2-alpha/whats-the-weather_Linux_x86_64.tar.gz"
+        sha256 "347a7852efda72f726c971bf36435b7c7263dc509c5bd0a1d004bcf634f41ac8"
 
         def install
           bin.install "whats-the-weather"
@@ -39,8 +39,8 @@ class WhatsTheWeather < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.1-alpha/whats-the-weather_Linux_arm64.tar.gz"
-        sha256 "cf4e4090a7f13adeb732868e7b570b8ee1cebd6b1d83ca8498c188d6bde0d401"
+        url "https://github.com/ciaarraa/whats-the-weather/releases/download/v1.0.2-alpha/whats-the-weather_Linux_arm64.tar.gz"
+        sha256 "0499f362f79360a810480ad438fd2c61e1c3431bf3cfbeed6ca73d6cf5589c27"
 
         def install
           bin.install "whats-the-weather"
